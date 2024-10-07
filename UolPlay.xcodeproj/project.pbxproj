@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C598BA162CB410C100A00BA3 /* UolPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598BA152CB410C100A00BA3 /* UolPlayApp.swift */; };
+		C598BA182CB410C100A00BA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598BA172CB410C100A00BA3 /* ContentView.swift */; };
+		C598BA1A2CB410C200A00BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C598BA192CB410C200A00BA3 /* Assets.xcassets */; };
+		C598BA1D2CB410C200A00BA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C598BA1C2CB410C200A00BA3 /* Preview Assets.xcassets */; };
+		C598BA272CB410C300A00BA3 /* UolPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598BA262CB410C300A00BA3 /* UolPlayTests.swift */; };
+		C598BA312CB410C300A00BA3 /* UolPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598BA302CB410C300A00BA3 /* UolPlayUITests.swift */; };
+		C598BA332CB410C300A00BA3 /* UolPlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598BA322CB410C300A00BA3 /* UolPlayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C598BA232CB410C300A00BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C598BA0A2CB410C100A00BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C598BA112CB410C100A00BA3;
+			remoteInfo = UolPlay;
+		};
+		C598BA2D2CB410C300A00BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C598BA0A2CB410C100A00BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C598BA112CB410C100A00BA3;
+			remoteInfo = UolPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C598BA122CB410C100A00BA3 /* UolPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UolPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C598BA152CB410C100A00BA3 /* UolPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UolPlayApp.swift; sourceTree = "<group>"; };
+		C598BA172CB410C100A00BA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C598BA192CB410C200A00BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C598BA1C2CB410C200A00BA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C598BA222CB410C300A00BA3 /* UolPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UolPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C598BA262CB410C300A00BA3 /* UolPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UolPlayTests.swift; sourceTree = "<group>"; };
+		C598BA2C2CB410C300A00BA3 /* UolPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UolPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C598BA302CB410C300A00BA3 /* UolPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UolPlayUITests.swift; sourceTree = "<group>"; };
+		C598BA322CB410C300A00BA3 /* UolPlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UolPlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C598BA0F2CB410C100A00BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C598BA1F2CB410C300A00BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C598BA292CB410C300A00BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C598BA092CB410C100A00BA3 = {
+			isa = PBXGroup;
+			children = (
+				C598BA142CB410C100A00BA3 /* UolPlay */,
+				C598BA252CB410C300A00BA3 /* UolPlayTests */,
+				C598BA2F2CB410C300A00BA3 /* UolPlayUITests */,
+				C598BA132CB410C100A00BA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C598BA132CB410C100A00BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C598BA122CB410C100A00BA3 /* UolPlay.app */,
+				C598BA222CB410C300A00BA3 /* UolPlayTests.xctest */,
+				C598BA2C2CB410C300A00BA3 /* UolPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C598BA142CB410C100A00BA3 /* UolPlay */ = {
+			isa = PBXGroup;
+			children = (
+				C598BA152CB410C100A00BA3 /* UolPlayApp.swift */,
+				C598BA172CB410C100A00BA3 /* ContentView.swift */,
+				C598BA192CB410C200A00BA3 /* Assets.xcassets */,
+				C598BA1B2CB410C200A00BA3 /* Preview Content */,
+			);
+			path = UolPlay;
+			sourceTree = "<group>";
+		};
+		C598BA1B2CB410C200A00BA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C598BA1C2CB410C200A00BA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C598BA252CB410C300A00BA3 /* UolPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C598BA262CB410C300A00BA3 /* UolPlayTests.swift */,
+			);
+			path = UolPlayTests;
+			sourceTree = "<group>";
+		};
+		C598BA2F2CB410C300A00BA3 /* UolPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C598BA302CB410C300A00BA3 /* UolPlayUITests.swift */,
+				C598BA322CB410C300A00BA3 /* UolPlayUITestsLaunchTests.swift */,
+			);
+			path = UolPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C598BA112CB410C100A00BA3 /* UolPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C598BA362CB410C300A00BA3 /* Build configuration list for PBXNativeTarget "UolPlay" */;
+			buildPhases = (
+				C598BA0E2CB410C100A00BA3 /* Sources */,
+				C598BA0F2CB410C100A00BA3 /* Frameworks */,
+				C598BA102CB410C100A00BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UolPlay;
+			productName = UolPlay;
+			productReference = C598BA122CB410C100A00BA3 /* UolPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C598BA212CB410C300A00BA3 /* UolPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C598BA392CB410C300A00BA3 /* Build configuration list for PBXNativeTarget "UolPlayTests" */;
+			buildPhases = (
+				C598BA1E2CB410C300A00BA3 /* Sources */,
+				C598BA1F2CB410C300A00BA3 /* Frameworks */,
+				C598BA202CB410C300A00BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C598BA242CB410C300A00BA3 /* PBXTargetDependency */,
+			);
+			name = UolPlayTests;
+			productName = UolPlayTests;
+			productReference = C598BA222CB410C300A00BA3 /* UolPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C598BA2B2CB410C300A00BA3 /* UolPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C598BA3C2CB410C300A00BA3 /* Build configuration list for PBXNativeTarget "UolPlayUITests" */;
+			buildPhases = (
+				C598BA282CB410C300A00BA3 /* Sources */,
+				C598BA292CB410C300A00BA3 /* Frameworks */,
+				C598BA2A2CB410C300A00BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C598BA2E2CB410C300A00BA3 /* PBXTargetDependency */,
+			);
+			name = UolPlayUITests;
+			productName = UolPlayUITests;
+			productReference = C598BA2C2CB410C300A00BA3 /* UolPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C598BA0A2CB410C100A00BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C598BA112CB410C100A00BA3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C598BA212CB410C300A00BA3 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C598BA112CB410C100A00BA3;
+					};
+					C598BA2B2CB410C300A00BA3 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C598BA112CB410C100A00BA3;
+					};
+				};
+			};
+			buildConfigurationList = C598BA0D2CB410C100A00BA3 /* Build configuration list for PBXProject "UolPlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C598BA092CB410C100A00BA3;
+			productRefGroup = C598BA132CB410C100A00BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C598BA112CB410C100A00BA3 /* UolPlay */,
+				C598BA212CB410C300A00BA3 /* UolPlayTests */,
+				C598BA2B2CB410C300A00BA3 /* UolPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C598BA102CB410C100A00BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C598BA1D2CB410C200A00BA3 /* Preview Assets.xcassets in Resources */,
+				C598BA1A2CB410C200A00BA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C598BA202CB410C300A00BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C598BA2A2CB410C300A00BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C598BA0E2CB410C100A00BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C598BA182CB410C100A00BA3 /* ContentView.swift in Sources */,
+				C598BA162CB410C100A00BA3 /* UolPlayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C598BA1E2CB410C300A00BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C598BA272CB410C300A00BA3 /* UolPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C598BA282CB410C300A00BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C598BA312CB410C300A00BA3 /* UolPlayUITests.swift in Sources */,
+				C598BA332CB410C300A00BA3 /* UolPlayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C598BA242CB410C300A00BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C598BA112CB410C100A00BA3 /* UolPlay */;
+			targetProxy = C598BA232CB410C300A00BA3 /* PBXContainerItemProxy */;
+		};
+		C598BA2E2CB410C300A00BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C598BA112CB410C100A00BA3 /* UolPlay */;
+			targetProxy = C598BA2D2CB410C300A00BA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C598BA342CB410C300A00BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		C598BA352CB410C300A00BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C598BA372CB410C300A00BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UolPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = G7KJ86895B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.UolPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		C598BA382CB410C300A00BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UolPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = G7KJ86895B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.UolPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		C598BA3A2CB410C300A00BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7KJ86895B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.UolPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UolPlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UolPlay";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		C598BA3B2CB410C300A00BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7KJ86895B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.UolPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UolPlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UolPlay";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		C598BA3D2CB410C300A00BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7KJ86895B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.UolPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = UolPlay;
+			};
+			name = Debug;
+		};
+		C598BA3E2CB410C300A00BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7KJ86895B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.UolPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = UolPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C598BA0D2CB410C100A00BA3 /* Build configuration list for PBXProject "UolPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C598BA342CB410C300A00BA3 /* Debug */,
+				C598BA352CB410C300A00BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C598BA362CB410C300A00BA3 /* Build configuration list for PBXNativeTarget "UolPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C598BA372CB410C300A00BA3 /* Debug */,
+				C598BA382CB410C300A00BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C598BA392CB410C300A00BA3 /* Build configuration list for PBXNativeTarget "UolPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C598BA3A2CB410C300A00BA3 /* Debug */,
+				C598BA3B2CB410C300A00BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C598BA3C2CB410C300A00BA3 /* Build configuration list for PBXNativeTarget "UolPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C598BA3D2CB410C300A00BA3 /* Debug */,
+				C598BA3E2CB410C300A00BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C598BA0A2CB410C100A00BA3 /* Project object */;
+}
