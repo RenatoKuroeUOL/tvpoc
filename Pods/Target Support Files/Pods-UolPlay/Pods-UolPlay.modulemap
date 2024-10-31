@@ -1,0 +1,6 @@
+framework module Pods_UolPlay {
+  umbrella header "Pods-UolPlay-umbrella.h"
+
+  export *
+  module * { export * }
+}
